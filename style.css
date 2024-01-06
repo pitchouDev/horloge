@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    outline: none;
+}
+
+body {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3em; 
+    color: #121212;
+
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+}
+
+#chrono {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 500px;
+    height: min-content;
+    border-radius: 20px;
+    background: rgb(0,138,200);
+    background: linear-gradient(113deg, rgba(0,138,200,1) 19%, rgba(11,179,189,1) 84%);
+    justify-content: space-around;
+    align-items: center;
+    font-size: 5em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#chrono button {
+    margin: 20px;
+    padding: 15px;
+    border: none;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 20px;
+    background: url("images/play.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#chrono button:hover {
+    background-color: rgb(116, 159, 224);
+}
+
+.play {
+    /*background: url("images/play.png");*/
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pause {
+    /*background: url("images/pause.png");*/
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
